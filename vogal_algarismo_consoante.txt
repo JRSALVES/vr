@@ -1,0 +1,23 @@
+package vr;
+
+import java.util.Scanner;
+
+public class vogal_algarismo_consoante {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite algo de um digito:");
+        String x = sc.nextLine();
+        String[] vogal = { "a", "e", "i", "o", "u", "A", "E", "I", "O", "U" };
+        int[] num = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
+
+        if (x == vogal[]) {
+            System.out.println(("É vogal"));
+        } else {
+            if (x == num[]) {
+                System.out.println("è um numeral");
+            } else {
+                System.out.println("É Consoante");
+            }
+        }
+    }
+}
