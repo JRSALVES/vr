@@ -1,8 +1,14 @@
 
+import java.util.Scanner;
+
 public class escolha {
     public static void main(String[] args){
-        String caracter = "e";
-        switch(caracter){
+        String dado;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite um caracter");
+        dado = sc.nextLine();
+        
+        switch(dado){
         case "a":
         case "e":
         case "i":
@@ -21,6 +27,27 @@ public class escolha {
         case "8":
         case "9": 
         System.out.println("\nNUMERAL\n");
+        break;
+        case "b": 
+        case "c": 
+        case "d":
+        case "f":
+        case "g":
+        case "h":
+        case "j":
+        case "l":
+        case "k":
+        case "m":
+        case "n":
+        case "p":
+        case "q":
+        case "r":
+        case "s":
+        case "t":
+        case "v":
+        case "x":
+        case "z":
+         System.out.println("\nCONSOANTE\n");
         break;
         }
     } 
