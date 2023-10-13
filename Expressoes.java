@@ -1,4 +1,3 @@
-package vr;
 
 public class Expressoes {
 

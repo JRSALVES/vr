@@ -1,4 +1,3 @@
-package vr;
 
 public class escolha {
     public static void main(String[] args){

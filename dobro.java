@@ -1,5 +1,3 @@
-package vr;
-
 import java.util.Scanner;
 
 public class dobro {

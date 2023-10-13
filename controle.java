@@ -1,4 +1,3 @@
-package vr;
 
 public class controle {
     public static void main(String[] args){

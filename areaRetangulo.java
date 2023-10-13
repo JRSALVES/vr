@@ -1,4 +1,4 @@
-package vr;
+
 
 public class areaRetangulo {
     //Crie um algoritmo que calcule a área de um retângulo.

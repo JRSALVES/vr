@@ -1,4 +1,4 @@
-package vr;
+
 
 import java.util.Scanner;
 
